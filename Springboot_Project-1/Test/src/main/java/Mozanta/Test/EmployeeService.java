@@ -25,6 +25,10 @@ public class EmployeeService {
         
         return(employees.get(id));
     }
+    public Employee viewDetails(Long id){
+
+        return(employees.get(id));
+    }
     public Employee postDetails(Employee emp){
         id+=1L;
         emp.setId(id);
